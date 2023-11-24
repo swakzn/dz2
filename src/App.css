@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+nav{
+  background-color: rgb(215, 131, 131);
+  font-size: 30px;
+  border-radius: 50px;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+nav li{
+  list-style: none;
+  margin-left: 20px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a.active-link{
+  color: rgb(255, 255, 255);
+}
